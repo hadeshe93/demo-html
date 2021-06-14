@@ -21,7 +21,7 @@ jobs:
           node-version: '12.x'
       - name: Deploy static asstes to aliyun oss
         id: deploy
-        uses: @hadeshe93/gh-action-aliyun-oss
+        uses: hadeshe93/gh-action-aliyun-oss
         with:
           access-key-id: ${{ secrets.ACCESS_KEY_ID }}
           access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
